@@ -1,0 +1,22 @@
+{
+    "kind": "collectionType",
+    "collectionName": "notes_apps",
+    "info": {
+        "singularName": "notes-app",
+        "pluralName": "notes-apps",
+        "displayName": "NotesApp",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "note_title": {
+            "type": "string"
+        },
+        "note_desc": {
+            "type": "string"
+        }
+    }
+}
